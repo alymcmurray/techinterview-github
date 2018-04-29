@@ -1,0 +1,32 @@
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="css/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+	</head>
+	<body>
+		
+		<div id="banner"></div>
+		
+		
+		<div id="main"></div>
+	    
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/pulltorefresh.js" type="text/javascript"></script>
+		<script src="js/feed.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.modal').modal();
+			});
+			
+		</script>		
+		<script type='text/javascript'>
+			PullToRefresh.init({
+				mainElement: '#main',
+				onRefresh: function(){ window.location.reload(); }
+			});
+		</script>
+	</body>
+</html>

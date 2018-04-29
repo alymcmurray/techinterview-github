@@ -1,0 +1,46 @@
+#banner {
+	height:10%;
+	background-color:#333;
+}
+
+#main {
+}
+
+.card1 {
+	border-radius: 25px;
+    border: 1px solid #333;
+	padding:1%;
+	margin:1%;
+	overflow:hidden;
+	width:98%;
+}
+a {
+	text-decoration:none;
+	color:black;
+}
+
+p {
+	margin:0;
+}
+
+img {
+	height:75px;
+	width:75px;
+	float:left;
+}
+
+.header {
+	height:80px;
+}
+
+.header > a > p {
+	padding-left:100px;
+}
+
+.modal {
+	text-size-adjust:300%;
+}
+
+.ptr--ptr {
+	text-size-adjust:300%;
+}
