@@ -1,5 +1,14 @@
 # Technical Interview Homework: GitHub Dashboard
-
+## Notes From Alyssa
+- I coded this in HTML/CSS/JS.
+I tried to get authentication working, but when I get to the point of getting an access token, I get stuck.
+The access token downloads instead of coming in the URL, as I expected it to. I have researched and can't really figure out what to do with Javascript.
+I left my partially complete code so you may see my progress. 
+However, I did incorporate the pull-to-refresh function and a refresh link. 
+I also incorporated the user's avatar and links to their repository and main user page. 
+As this is a web application, it should be compatible across most browsers and operating systems.
+I tested this using Google Chrome's built in mobile inspector. 
+You may view the live version of this code at http://18.219.124.71/hw/
 
 ## Purpose
 The purpose of this exercise is to assess the candidate’s ability to build cross platform software clients that satisfy stated requirements. The completed assignment should not only satisfy the requirements outlined below, but also give the candidate an opportunity to show-off their skills.
